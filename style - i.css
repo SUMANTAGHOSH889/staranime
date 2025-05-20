@@ -1,0 +1,163 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: white;
+  text-align: center;
+}
+
+/* Header Section */
+header {
+  background-color: #1e3a8a; /* dark blue */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: default;
+}
+
+header img {
+  width: 70px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+/* Subtitle */
+.intro {
+  background-color: rgb(14, 14, 81); 
+  padding: 15px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #dbeafe;
+  margin: 5px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar {
+  background-color:rgb(255, 255, 255);
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.navbar a {
+  color: #ffffff;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: #facc15;
+  cursor: pointer;
+
+}
+
+/* Anime Boxes */
+.box-container {
+  background:url(bl.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px;
+}
+
+.box {
+  background-color: rgba(0, 0,0, 0.5);
+  width: 70000px;
+  height: 700px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #020b17 ;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: left;
+
+}
+
+
+.box img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.box a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  
+}
+
+.box a:hover {
+  color: #a7f3d0;
+   
+}
+
+.navbar {
+  background-color: #1d4ed8;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #facc15;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px 10px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+  width: 180px;
+}
+
+.search-bar button {
+  padding: 5px 12px;
+  background-color: #facc15;
+  color: #000;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-bar button:hover {
+  background-color: #fde68a;
+}

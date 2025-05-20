@@ -1,0 +1,179 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0f2c;
+  color: white;
+  text-align: center;
+}
+
+/* Header Section */
+header {
+  background-color: #1e3a8a; /* dark blue */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: default;
+}
+
+header img {
+  width: 70px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+/* Subtitle */
+.intro {
+  background-color: rgb(14, 14, 81); 
+  padding: 15px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #dbeafe;
+  margin: 5px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar {
+  background-color:black;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.navbar a {
+  color: #ffffff;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: #facc15;
+  cursor: pointer;
+
+}
+
+/* Anime Boxes */
+.box-container {
+  background-color:black; /* cyan-blue */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px;
+}
+
+.box {
+  background-color: rgb(17, 17, 65);
+  width: 160px;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #60a5fa ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  background-color: #3b82f6;
+}
+
+.box img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.box a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  
+}
+
+.box a:hover {
+  color: #761010;
+   
+}
+
+.navbar {
+  background-color: #1d4ed8;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #facc15;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px 10px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+  width: 180px;
+}
+
+.search-bar button {
+  padding: 5px 12px;
+  background-color: #facc15;
+  color: #000;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-bar button:hover {
+  background-color: #fde68a;
+}
+.bottom{
+ color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  height: 150px;
+  background-color: #05042c;
+  border-top: #6c60eb solid 1px;
+}
+
+.bb{
+  color: #ffffff;
+  background-color:#c18585;
+
+}
+.bb:hover{
+  background-color: #368ead;
+}
